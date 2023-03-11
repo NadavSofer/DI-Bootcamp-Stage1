@@ -1,0 +1,41 @@
+:root {
+    --bg: #364371;
+    --bg1: #5b7fbd;
+    --bg2: #b0cfff;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+#wrap {
+    width: 600px;
+}
+
+#nav {
+background-color: var(--bg2);
+padding: 10px;
+padding-bottom: 250px;
+float: left;
+
+}
+
+#content {
+    text-align: center;
+    padding: 10px;
+}
+
+#content ul, h1, p {
+    background-color: var(--bg1);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#content li {
+    list-style: none;
+    
+}
+
+.copyright {
+    padding: 10px;
+}
