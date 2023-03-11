@@ -15,20 +15,17 @@ body {
 #nav {
 background-color: var(--bg2);
 padding: 10px;
-padding-bottom: 250px;
 float: left;
-
+height: 415px;
 }
 
 #content {
+    background-color: #5b7fbd;
     text-align: center;
-    padding: 10px;
 }
 
-#content ul, h1, p {
-    background-color: var(--bg1);
-    margin-top: 0;
-    margin-bottom: 0;
+h1 {
+    padding-top: 20px;
 }
 
 #content li {
@@ -37,5 +34,6 @@ float: left;
 }
 
 .copyright {
-    padding: 10px;
+    background-color: #364371;
+    padding-top: 5px;
 }
